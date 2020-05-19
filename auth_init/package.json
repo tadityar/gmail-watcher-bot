@@ -1,0 +1,16 @@
+{
+  "name": "auth_init",
+  "version": "1.0.0",
+  "description": "initialise gsuite auth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "functions-framework --target=auth_init --port=8083"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/express-oauth2-handlers": "^0.1.2",
+    "@google-cloud/functions-framework": "^1.5.1"
+  }
+}
